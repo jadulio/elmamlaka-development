@@ -1,0 +1,116 @@
+/* Reset أساسي */
+body, h1, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+/* تنسيق أساسي للصفحة */
+body {
+    background-color: #121212; /* خلفية غامقة */
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* الحاوية الرئيسية */
+.container {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1c1c1c; /* لون أفتح قليلاً للخلفية */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* عنوان الصفحة */
+.container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* تنسيق الصورة */
+.container img {
+    max-width: 250px;
+}
+
+/* الروابط الاجتماعية */
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* تأثير على التحويم */
+.social-links a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* ألوان مخصصة لكل شبكة اجتماعية */
+.twitter {
+    background-color: #1da1f2; /* لون تويتر */
+}
+
+.twitter:hover {
+    background-color: #0d8ce0;
+}
+
+.facebook {
+    background-color: #4267B2; /* لون فيسبوك */
+}
+
+.facebook:hover {
+    background-color: #365899;
+}
+
+.instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); /* لون إنستغرام */
+}
+
+.instagram:hover {
+    filter: brightness(1.2);
+}
+
+.youtube {
+    background-color: #FF0000; /* لون يوتيوب */
+}
+
+.youtube:hover {
+    background-color: #cc0000;
+}
+
+.tiktok {
+    background: linear-gradient(45deg, #25F4EE, #FE2C55); /* لون تيك توك */
+}
+
+.tiktok:hover {
+    filter: brightness(1.2);
+}
+
+/* أيقونات الروابط */
+.social-links a i {
+    margin-right: 10px;
+}
